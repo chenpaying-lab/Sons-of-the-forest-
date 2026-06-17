@@ -1,0 +1,6 @@
+{
+  "name": "Sons of the Forest Interactive Guide",
+  "description": "An interactive companion guide for Sons of the Forest. Track your map exploration, check comprehensive cave guides, follow the story progress checklist, and search items with local storage state persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

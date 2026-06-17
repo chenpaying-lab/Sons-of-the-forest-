@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    background-color: #090b0e; /* Immersive Editorial Dark Slate */
+    color: #e2e8f0;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Beautiful custom glow keys for map */
+@keyframes pulse-emerald {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.5);
+  }
+}
+
+.glow-emerald-pulse {
+  animation: pulse-emerald 2s infinite;
+}
+
+/* Slow spin for maps compass */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 30s linear infinite;
+}
+
+/* Scrollbar customizations */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.2);
+  border-radius: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.4);
+}

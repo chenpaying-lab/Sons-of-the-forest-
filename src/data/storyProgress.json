@@ -1,0 +1,12 @@
+[
+  { "id": "S1", "title": "抵達島嶼", "completed": false },
+  { "id": "S2", "title": "取得 GPS", "completed": false },
+  { "id": "S3", "title": "取得繩索槍", "completed": false },
+  { "id": "S4", "title": "取得潛水器", "completed": false },
+  { "id": "S5", "title": "取得鏟子", "completed": false },
+  { "id": "S6", "title": "進入食品避難所", "completed": false },
+  { "id": "S7", "title": "取得 VIP 卡", "completed": false },
+  { "id": "S8", "title": "取得黃金護甲", "completed": false },
+  { "id": "S9", "title": "進入最終避難所", "completed": false },
+  { "id": "S10", "title": "完成結局", "completed": false }
+]
